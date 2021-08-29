@@ -1,0 +1,132 @@
+.sobremesa {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.logosobremesas {
+    width: 100%;
+    max-width: 250px;
+}
+
+.sobremesascapa {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 -5px;
+}
+
+.sobremesascapa img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sobremesascapa > div {
+    margin: 10px 0;
+    padding: 0 8px;
+}
+
+.embla {
+    background: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 99;
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.8));
+}
+
+
+
+/*embla*/
+.embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+}
+
+
+.embla__button__svg {
+    width: 100%;
+    height: 100%;
+}
+
+.embla__button {
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.8));
+    outline: 0;
+    cursor: pointer;
+    background-color: transparent;
+    touch-action: manipulation;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    padding: 0;
+}
+
+.embla__button--prev {
+    left: 8px;
+}
+
+.embla__button--next {
+    right: 8px;
+}
+
+.embla__slide {
+    position: relative;
+    flex: 0 0 100%;
+    height: 100vh;
+    /*max-width: 530px;*/
+    max-width: 95vw;
+}
+
+
+
+@media(min-width:520px) {
+    .embla__button--prev {
+        width: 50px;
+        height: 50px;
+        left: 27px;
+    }
+
+    .embla__button--next {
+        width: 50px;
+        height: 50px;
+        right: 27px;
+    }
+
+    .embla__slide {
+        max-width: 57vh;
+    }
+
+    .closebtn {
+        background: black;
+        padding: 11px;
+        width: 50px;
+        border-radius: 900px;
+    }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Rodízio - Haraganos</title>
+    <link rel="stylesheet" href="index_files/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="index_files/assets/main.css">
+</head>
+
+<body>
+
+    <section class="container-fluid" style="background: #302523; padding: 0 8px;">
+        <div class="row mx-auto">
+            <div class="col-12 text-center">
+                <img class="logo" src="index_files/images/logo_topo.png">
+            </div>
+        </div>
+        <div class="row itenscapa">
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(0)"><img src="index_files/images/alcatra_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(1)"><img src="index_files/images/asado_de_tira_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(1)"><img src="index_files/images/baby_beef_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(2)"><img src="index_files/images/bife_ancho_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(3)"><img src="index_files/images/carre_de_cordeiro_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(4)"><img src="index_files/images/chorizo_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(5)"><img src="index_files/images/coracao_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(6)"><img class="fastlazy" data-src="index_files/images/costela_de_ripa_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(7)"><img class="fastlazy" data-src="index_files/images/costela_premium_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(8)"><img class="fastlazy" data-src="index_files/images/costela_suina_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(9)"><img class="fastlazy" data-src="index_files/images/costelao_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(12)"><img class="fastlazy" data-src="index_files/images/cupim.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(10)"><img class="fastlazy" data-src="index_files/images/fraldinha_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(11)"><img class="fastlazy" data-src="index_files/images/frango_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(12)"><img class="fastlazy" data-src="index_files/images/leitao_pururuca_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(4)"><img class="fastlazy" data-src="index_files/images/linguica_apimentada_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(13)"><img class="fastlazy" data-src="index_files/images/linguica_calabresa_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(14)"><img class="fastlazy" data-src="index_files/images/maminha_na_mostarda_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(15)"><img class="fastlazy" data-src="index_files/images/paleta_de_cordeiro_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(16)"><img class="fastlazy" data-src="index_files/images/pao_de_alho_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(17)"><img class="fastlazy" data-src="index_files/images/picanha_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(18)"><img class="fastlazy" data-src="index_files/images/picanha_no_alho_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(19)"><img class="fastlazy" data-src="index_files/images/queijo_mussarela_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(2)"><img class="fastlazy" data-src="index_files/images/salmao_capa.jpg"></a>
+            </div>
+        </div>
+        <div class="row mx-auto">
+            <div class="col-12 text-center">
+                <img class="logo my-3 fastlazy" data-src="index_files/images/logo_rodape.png">
+            </div>
+        </div>
+    </section>
+
+    <div class="embla d-none" id="embla">
+        <div class="embla__container lazycontainer">
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/alcatra.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/assado_tira_baby_beef.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/ancho_salmao.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/carre_de_cordeiro.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/chorizo_linguica_apimentada.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/coracao.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/costela_de_ripa.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/costela_premium.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/costela_suina.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/costelao.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/fraldinha.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/frango.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/leitao_cupim.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/linguica_calabresa.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/maminha_na_mostarda.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/paleta_de_cordeiro.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/pao_de_alho.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/picanha.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/picanha_no_alho.jpg"></div>
+            <div class="embla__slide"><img class="itenstelacheia" data-src="index_files/images/queijo_mussarela.jpg"></div>
+        </div>
+
+
+        <!-- Buttons -->
+        <button class="embla__button embla__button--prev" onclick="embla.scrollPrev()" type="button">
+            <svg class="embla__button__svg" viewBox="137.718 -1.001 366.563 643.999">
+                <path d="M428.36 12.5c16.67-16.67 43.76-16.67 60.42 0 16.67 16.67 16.67 43.76 0 60.42L241.7 320c148.25 148.24 230.61 230.6 247.08 247.08 16.67 16.66 16.67 43.75 0 60.42-16.67 16.66-43.76 16.67-60.42 0-27.72-27.71-249.45-249.37-277.16-277.08a42.308 42.308 0 0 1-12.48-30.34c0-11.1 4.1-22.05 12.48-30.42C206.63 234.23 400.64 40.21 428.36 12.5z"></path>
+            </svg>
+        </button>
+        <button class="embla__button embla__button--next" onclick="embla.scrollNext()" type="button">
+            <svg class="embla__button__svg" viewBox="0 0 238.003 238.003">
+                <path d="M181.776 107.719L78.705 4.648c-6.198-6.198-16.273-6.198-22.47 0s-6.198 16.273 0 22.47l91.883 91.883-91.883 91.883c-6.198 6.198-6.198 16.273 0 22.47s16.273 6.198 22.47 0l103.071-103.039a15.741 15.741 0 0 0 4.64-11.283c0-4.13-1.526-8.199-4.64-11.313z"></path>
+            </svg>
+        </button>
+
+        <div class="closebtn"><a href="javascript:fechaembla()"><img class="w-100" src="index_files/images/close.png"></a></div>
+    </div>
+
+
+
+    <script src="./index_files/assets/embla-carousel.umd.js"></script>
+    <script src="./index_files/assets/lazyload.min.js"></script>
+    <script src="index_files/assets/main.js"></script>
+</body>
+
+</html>

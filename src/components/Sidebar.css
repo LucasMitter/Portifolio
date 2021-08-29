@@ -1,0 +1,149 @@
+li{
+  list-style-type: none;
+}
+:root{
+  --width: 220px;
+}
+/* parent */
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: var(--width);
+
+
+  background: #111;
+  color: white;
+
+  
+  display: flex;
+  flex-flow: column;
+ /*  justify-content: space-between; */
+
+  /* 
+  align-items: center;
+  justify-content: center; 
+
+  text-align: center;*/
+}
+
+/* child header */
+.sidebar .logo{
+  filter: invert(100%);
+  background: white; /* black (invert) */
+}
+
+/* child content */
+.sidebar ul{
+  width: 100%;
+  flex: 2 1 auto;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* content itens */
+.sidebar li {
+  padding: 15px 0;
+}
+
+/* divider */
+.sidebar hr {
+  width: 65%;
+  opacity: 30%;
+}
+
+/* child footer */
+.sidebar .footer{
+  flex: 1 1 auto;
+}
+
+/* open close btn */
+.sidebarbtn{
+  position: fixed;
+  left: 240px;
+  top: 15px;
+
+  background: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 100%;
+  
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: black;/* bars color */
+    transition: 0.4s;
+}
+
+.active .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.active .bar2 {
+    opacity: 0;
+}
+
+.active .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+/* menu moving */
+.sidebar{
+  -webkit-transform: translateX(-220px);
+  -moz-transform: translateX(-220px);
+  -ms-transform: translateX(-220px);
+  transform: translateX(-220px);
+  -webkit-transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -ms-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+.sidebar.active{
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.opacitybg{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+
+  -webkit-transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -ms-transition: all .25s linear;
+  transition: all .25s linear;
+
+  visibility: hidden;
+}
+
+.active.opacitybg{
+  visibility: visible;
+  background: rgba(0, 0, 0, 0.9);
+}

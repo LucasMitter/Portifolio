@@ -1,0 +1,144 @@
+/* Fonts */
+
+
+/* @font-face {
+  font-family: template;
+  src: url('./');
+} */
+
+
+@font-face {
+  font-family: roboto;
+  src: url('./assets/fonts/Roboto-Black.ttf');
+  font-weight: bolder;
+} 
+
+@font-face {
+  font-family: roboto;
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url('./assets/fonts/Roboto-Light.ttf');
+  font-weight: normal;
+} 
+
+
+
+/* --------  Default  -------- */
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  margin: 0;
+}
+
+p{
+  font-size: 16px;
+}
+
+img{
+  max-width: 100%;
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: inherit !important;
+}
+
+a.white, a.white:hover{
+  color: white !important;
+}
+
+.arial{
+    font-family: arial;
+}
+
+/* *{
+    color: black;
+} */
+
+
+.rounded{
+  border-radius: 17px !important;
+}
+
+.rounded10{
+  border-radius: 10% !important;
+}
+.rounded100{
+  border-radius: 100% !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.wfit{
+  width: fit-content;
+}
+.z2 {
+  z-index: 2;
+}
+.z5{
+  z-index: 5;
+}
+.z10{
+  z-index: 10;
+}
+
+/* padding margin */
+
+.py1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.py2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.py3{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.py4{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.py5{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.py6{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.py7{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.py8{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.py9{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.py10{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

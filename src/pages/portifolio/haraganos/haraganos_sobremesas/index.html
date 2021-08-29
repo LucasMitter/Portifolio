@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Sobremesas - Haraganos</title>
+    <link rel="stylesheet" href="index_files/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="index_files/assets/main.css">
+</head>
+
+<body>
+
+    <section class="container-fluid" style="background: #131313; padding: 0 8px;">
+        <div class="row mx-auto">
+            <div class="col-12 text-center">
+                <img class="logosobremesas" src="index_files/images/logo_sobremesas.png">
+            </div>
+        </div>
+        <div class="row sobremesascapa">
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(0)"><img src="index_files/images/banana_caramelada_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(1)"><img src="index_files/images/banana_split_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(2)"><img src="index_files/images/bolo_supremo_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(3)"><img src="index_files/images/cheese_cake_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(4)"><img src="index_files/images/cocada_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(5)"><img src="index_files/images/creme_de_papaya_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(6)"><img src="index_files/images/crepe_nutella_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(7)"><img class="fastlazy" data-src="index_files/images/limochamp_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(8)"><img class="fastlazy" data-src="index_files/images/mousse_de_chocolate_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(9)"><img class="fastlazy" data-src="index_files/images/mousse_de_maracuja_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(10)"><img class="fastlazy" data-src="index_files/images/panna_cotta_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(11)"><img class="fastlazy" data-src="index_files/images/papelote_de_frutas_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(12)"><img class="fastlazy" data-src="index_files/images/petit_gateau_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(13)"><img class="fastlazy" data-src="index_files/images/pudim_de_leite_condensado_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(14)"><img class="fastlazy" data-src="index_files/images/quindim_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(15)"><img class="fastlazy" data-src="index_files/images/salada_de_frutas_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(16)"><img class="fastlazy" data-src="index_files/images/sorvetes_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(17)"><img class="fastlazy" data-src="index_files/images/sundae_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(18)"><img class="fastlazy" data-src="index_files/images/tiramissu_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(19)"><img class="fastlazy" data-src="index_files/images/torta_de_limao_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(20)"><img class="fastlazy" data-src="index_files/images/torta_holandesa_capa.jpg"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <a href="javascript:abrirembla(21)"><img class="fastlazy" data-src="index_files/images/torta_tatin_capa.jpg"></a>
+            </div>
+        </div>
+        <div class="row mx-auto">
+            <div class="col-12 text-center">
+                <img class="logosobremesas my-3 fastlazy" data-src="index_files/images/logo_rodape.png" >
+            </div>
+        </div>
+    </section>
+
+    <div class="embla d-none" id="embla">
+        <div class="embla__container lazycontainer">
+            <div class="embla__slide"><img class="sobremesa" src="index_files/images/loading.gif" data-src="index_files/images/banana_caramelada.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/banana_split.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/bolo_supremo.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/cheese_cake.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/cocada.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/crepe_de_papaya.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/crepe_nutella.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/limochamp.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/mousse_de_chocolate.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/mousse_de_maracuja.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/panna_cotta.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/papelote_de_frutas.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/petit_gateau.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/pudim_de_leite_condensado.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/quindim.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/salada_de_frutas.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/sorvetes.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/sundae.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/tiramissu.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/torta_de_limao.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/torta_holandesa.jpg"></div>
+            <div class="embla__slide"><img class="sobremesa" data-src="index_files/images/torta_tatin.jpg"></div>
+        </div>
+
+
+        <!-- Buttons -->
+        <button class="embla__button embla__button--prev" onclick="embla.scrollPrev()" type="button">
+            <svg class="embla__button__svg" viewBox="137.718 -1.001 366.563 643.999">
+                <path d="M428.36 12.5c16.67-16.67 43.76-16.67 60.42 0 16.67 16.67 16.67 43.76 0 60.42L241.7 320c148.25 148.24 230.61 230.6 247.08 247.08 16.67 16.66 16.67 43.75 0 60.42-16.67 16.66-43.76 16.67-60.42 0-27.72-27.71-249.45-249.37-277.16-277.08a42.308 42.308 0 0 1-12.48-30.34c0-11.1 4.1-22.05 12.48-30.42C206.63 234.23 400.64 40.21 428.36 12.5z"></path>
+            </svg>
+        </button>
+        <button class="embla__button embla__button--next" onclick="embla.scrollNext()" type="button">
+            <svg class="embla__button__svg" viewBox="0 0 238.003 238.003">
+                <path d="M181.776 107.719L78.705 4.648c-6.198-6.198-16.273-6.198-22.47 0s-6.198 16.273 0 22.47l91.883 91.883-91.883 91.883c-6.198 6.198-6.198 16.273 0 22.47s16.273 6.198 22.47 0l103.071-103.039a15.741 15.741 0 0 0 4.64-11.283c0-4.13-1.526-8.199-4.64-11.313z"></path>
+            </svg>
+        </button>
+
+        <div class="closebtn"><a href="javascript:fechaembla()"><img class="w-100" src="index_files/images/close.png"></a></div>
+    </div>
+
+
+
+    <script src="./index_files/assets/embla-carousel.umd.js"></script>
+    <script src="./index_files/assets/lazyload.min.js"></script>
+    <script src="index_files/assets/main.js"></script>
+</body>
+
+</html>
