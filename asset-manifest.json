@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/Portifolio/static/css/main.5b873a8d.chunk.css",
-    "main.js": "/Portifolio/static/js/main.377a7a35.chunk.js",
-    "main.js.map": "/Portifolio/static/js/main.377a7a35.chunk.js.map",
-    "runtime-main.js": "/Portifolio/static/js/runtime-main.a896f35c.js",
-    "runtime-main.js.map": "/Portifolio/static/js/runtime-main.a896f35c.js.map",
-    "static/js/2.4f32022a.chunk.js": "/Portifolio/static/js/2.4f32022a.chunk.js",
-    "static/js/2.4f32022a.chunk.js.map": "/Portifolio/static/js/2.4f32022a.chunk.js.map",
-    "static/js/3.819c287c.chunk.js": "/Portifolio/static/js/3.819c287c.chunk.js",
-    "static/js/3.819c287c.chunk.js.map": "/Portifolio/static/js/3.819c287c.chunk.js.map",
+    "main.css": "/Portifolio/static/css/main.bc5a33b2.chunk.css",
+    "main.js": "/Portifolio/static/js/main.fe24ebc3.chunk.js",
+    "main.js.map": "/Portifolio/static/js/main.fe24ebc3.chunk.js.map",
+    "runtime-main.js": "/Portifolio/static/js/runtime-main.e819ce97.js",
+    "runtime-main.js.map": "/Portifolio/static/js/runtime-main.e819ce97.js.map",
+    "static/css/2.ec02d681.chunk.css": "/Portifolio/static/css/2.ec02d681.chunk.css",
+    "static/js/2.9abed442.chunk.js": "/Portifolio/static/js/2.9abed442.chunk.js",
+    "static/js/2.9abed442.chunk.js.map": "/Portifolio/static/js/2.9abed442.chunk.js.map",
+    "static/js/3.420c890c.chunk.js": "/Portifolio/static/js/3.420c890c.chunk.js",
+    "static/js/3.420c890c.chunk.js.map": "/Portifolio/static/js/3.420c890c.chunk.js.map",
     "index.html": "/Portifolio/index.html",
-    "static/css/main.5b873a8d.chunk.css.map": "/Portifolio/static/css/main.5b873a8d.chunk.css.map",
-    "static/js/2.4f32022a.chunk.js.LICENSE.txt": "/Portifolio/static/js/2.4f32022a.chunk.js.LICENSE.txt",
+    "static/css/2.ec02d681.chunk.css.map": "/Portifolio/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.bc5a33b2.chunk.css.map": "/Portifolio/static/css/main.bc5a33b2.chunk.css.map",
+    "static/js/2.9abed442.chunk.js.LICENSE.txt": "/Portifolio/static/js/2.9abed442.chunk.js.LICENSE.txt",
     "static/media/global.css": "/Portifolio/static/media/Roboto-Regular.f25bd059.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a896f35c.js",
-    "static/js/2.4f32022a.chunk.js",
-    "static/css/main.5b873a8d.chunk.css",
-    "static/js/main.377a7a35.chunk.js"
+    "static/js/runtime-main.e819ce97.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.9abed442.chunk.js",
+    "static/css/main.bc5a33b2.chunk.css",
+    "static/js/main.fe24ebc3.chunk.js"
   ]
 }
